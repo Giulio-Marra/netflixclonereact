@@ -13,7 +13,7 @@ import avatar from "../assets/avatar.png";
 
 const NetflixNavbar = () => {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+    <Navbar bg="dark" variant="dark" expand="lg">
       <Container fluid className="align-items-center">
         <Navbar.Brand href="#home">
           <img src={logo} alt="Logo" style={{ height: "40px" }} />

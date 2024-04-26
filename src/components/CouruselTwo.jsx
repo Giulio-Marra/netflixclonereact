@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-class AddelementCarousel extends Component {
+class AddelementCarouselTwo extends Component {
   state = {
     films: [],
   };
@@ -14,7 +14,7 @@ class AddelementCarousel extends Component {
   }
 
   fetchFilmList = () => {
-    fetch("http://www.omdbapi.com/?apiKey=536e9803&s=Batman")
+    fetch("http://www.omdbapi.com/?apiKey=536e9803&s=Avengers")
       .then((response) => {
         if (response.ok) {
           return response.json();
@@ -67,7 +67,7 @@ class AddelementCarousel extends Component {
     return (
       <div className="slider-container mt-4">
         <Container fluid>
-          <h2>Trending on moment</h2>
+          <h2>Spiderman Films</h2>
           <Slider {...settings}>
             {this.state.films.map((film, index) => (
               <div key={index} className="m-2">
@@ -85,4 +85,4 @@ class AddelementCarousel extends Component {
   }
 }
 
-export default AddelementCarousel;
+export default AddelementCarouselTwo;
