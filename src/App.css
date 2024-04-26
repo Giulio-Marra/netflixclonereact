@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(33 37 41);
+}
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}
+.btnSearch{
+    background-color: transparent;
+    border: none;
+}
+.btnSearch:hover{
+    background-color: transparent;
+}
+.iconSocial{
+    margin: 5px;
+    color: "#8b8c8b";
+    font-size: "1.5rem"
+}
+
+.slick-slide > div {
+    margin: 0 5px; 
+} 
+.slick-slide img {
+    width: 100%; 
+     height: auto; 
+}
+.slick-slide img:hover {
+    transform: scale(1.1); 
+    cursor: pointer;
+    transition: transform 0.3s ; 
+}
+
+  
+  
