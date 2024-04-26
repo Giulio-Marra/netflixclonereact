@@ -68,7 +68,7 @@ class AddelementCarousel extends Component {
       <div className="slider-container mt-4">
         <Container fluid>
           <h2>Trending on moment</h2>
-          <Slider {...settings}>
+          <Slider {...settings} className="ms-4 me-4">
             {this.state.films.map((film, index) => (
               <div key={index} className="m-2">
                 <img
