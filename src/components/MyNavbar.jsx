@@ -15,17 +15,17 @@ const NetflixNavbar = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container fluid className="align-items-center">
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="">
           <img src={logo} alt="Logo" style={{ height: "40px" }} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="netflix-navbar-nav" />
         <Navbar.Collapse id="netflix-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#tv-shows">TV Shows</Nav.Link>
-            <Nav.Link href="#movies">Movies</Nav.Link>
-            <Nav.Link href="#recently-added">Recently Added</Nav.Link>
-            <Nav.Link href="#my-list">My List</Nav.Link>
+            <Nav.Link href="">Home</Nav.Link>
+            <Nav.Link href="">TV Shows</Nav.Link>
+            <Nav.Link href="">Movies</Nav.Link>
+            <Nav.Link href="">Recently Added</Nav.Link>
+            <Nav.Link href="">My List</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <FormControl
@@ -39,8 +39,8 @@ const NetflixNavbar = () => {
             </Button>
           </Form>
           <Nav className="align-items-center-lg">
-            <Nav.Link href="#kids">Kids</Nav.Link>
-            <Nav.Link href="#notifications">
+            <Nav.Link href="">Kids</Nav.Link>
+            <Nav.Link href="">
               <i className="bi bi-bell-fill"></i>
             </Nav.Link>
             <NavDropdown
@@ -54,10 +54,10 @@ const NetflixNavbar = () => {
               id="nav-dropdown"
               align="end"
             >
-              <NavDropdown.Item href="#profile">Profile</NavDropdown.Item>
-              <NavDropdown.Item href="#settings">Settings</NavDropdown.Item>
+              <NavDropdown.Item href="">Profile</NavDropdown.Item>
+              <NavDropdown.Item href="">Settings</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#logout">Log out</NavDropdown.Item>
+              <NavDropdown.Item href="">Log out</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

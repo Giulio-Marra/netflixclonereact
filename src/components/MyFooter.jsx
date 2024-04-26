@@ -36,64 +36,49 @@ const Footer = () => {
         </div>
         <Row>
           <Col md={3} className="d-flex flex-column">
-            <a
-              href="#audio-subtitles"
-              className="list-group-item text-secondary"
-            >
+            <a href="" className="list-group-item text-secondary">
               Audio and subtitles
             </a>
-            <a href="#media-center" className="list-group-item text-secondary">
+            <a href="" className="list-group-item text-secondary">
               Media Center
             </a>
-            <a href="#privacy" className="list-group-item text-secondary">
+            <a href="" className="list-group-item text-secondary">
               Privacy
             </a>
-            <a href="#contact-us" className="list-group-item text-secondary">
+            <a href="" className="list-group-item text-secondary">
               Contact Us
             </a>
           </Col>
           <Col md={3} className="d-flex flex-column">
-            <a
-              href="#audio-description"
-              className="list-group-item text-secondary"
-            >
+            <a href="" className="list-group-item text-secondary">
               Audio Description
             </a>
-            <a
-              href="#investor-relations"
-              className="list-group-item text-secondary"
-            >
+            <a href="" className="list-group-item text-secondary">
               Investor Relations
             </a>
-            <a href="#legal-notices" className="list-group-item text-secondary">
+            <a href="" className="list-group-item text-secondary">
               Legal Notices
             </a>
           </Col>
           <Col md={3} className="d-flex flex-column">
-            <a href="#help-center" className="list-group-item text-secondary">
+            <a href="" className="list-group-item text-secondary">
               Help Center
             </a>
-            <a href="#jobs" className="list-group-item text-secondary">
+            <a href="" className="list-group-item text-secondary">
               Jobs
             </a>
-            <a
-              href="#cookie-preferences"
-              className="list-group-item text-secondary"
-            >
+            <a href="" className="list-group-item text-secondary">
               Cookie Preferences
             </a>
           </Col>
           <Col md={3} className="d-flex flex-column">
-            <a href="#gift-cards" className="list-group-item text-secondary">
+            <a href="" className="list-group-item text-secondary">
               Gift Cards
             </a>
-            <a href="#terms-of-use" className="list-group-item text-secondary">
+            <a href="" className="list-group-item text-secondary">
               Terms of Use
             </a>
-            <a
-              href="#corporate-info"
-              className="list-group-item text-secondary"
-            >
+            <a href="" className="list-group-item text-secondary">
               Corporate Information
             </a>
           </Col>
