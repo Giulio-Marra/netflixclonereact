@@ -28,7 +28,7 @@ class AddelementCarousel extends Component {
       .catch((error) => console.error("Error fetching films:", error));
   };
 
-  render() {
+  render(props) {
     const settings = {
       infinite: true,
       centerPadding: "30px",
@@ -67,7 +67,7 @@ class AddelementCarousel extends Component {
     return (
       <div className="slider-container mt-4">
         <Container fluid>
-          <h2>Trending on moment</h2>
+          <h2>{this.props.title}</h2>
           <Slider {...settings} className="ms-4 me-4">
             {this.state.films.map((film, index) => (
               <div key={index} className="m-2">

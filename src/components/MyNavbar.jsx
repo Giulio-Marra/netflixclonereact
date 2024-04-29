@@ -11,7 +11,7 @@ import {
 import logo from "../assets/logo.png";
 import avatar from "../assets/avatar.png";
 
-const NetflixNavbar = () => {
+const NetflixNavbar = ({ showProfile }) => {
   return (
     <Navbar bg="black" variant="dark" expand="lg">
       <Container fluid className="align-items-center">
@@ -54,7 +54,9 @@ const NetflixNavbar = () => {
               id="nav-dropdown"
               align="end"
             >
-              <NavDropdown.Item href="">Profile</NavDropdown.Item>
+              <NavDropdown.Item href="" onClick={showProfile}>
+                Profile
+              </NavDropdown.Item>
               <NavDropdown.Item href="">Settings</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="">Log out</NavDropdown.Item>
