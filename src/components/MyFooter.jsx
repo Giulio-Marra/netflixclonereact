@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-light mt-5">
+    <footer className="bg-black text-light mt-5 pt-5 ">
       <Container>
         <div>
           <FontAwesomeIcon

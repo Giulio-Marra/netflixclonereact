@@ -62,5 +62,6 @@ p{
 .imgLogo:hover{
     cursor: pointer;
 }
-
-
+body{
+    height: 100vh;
+}
