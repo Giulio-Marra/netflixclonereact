@@ -41,7 +41,7 @@ const DetailsFilm = () => {
             />
           </Col>
           <Col xs={12} md={8}>
-            <h1>{film.Title}</h1>
+            <h1 className="border-bottom">{film.Title}</h1>
             <p>
               <strong>Year Released:</strong> {film.Year}
             </p>
